@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dubez Digital | Local Business Growth</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Open Graph / Social Sharing (WhatsApp, LinkedIn previews) -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Dubez Digital | Local Business Growth">
+    <meta property="og:description" content="I build high-performance websites that get local businesses more calls and bookings. Flat rates, clean code, no fluff.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80">
+    <meta property="og:url" content="https://dubezdigital.com">
+
+    <!-- Favicon (Simple D Logo) -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🔹</text></svg>">
+
+    <!-- Ionicons for simple, clean icons -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <div class="container nav-container">
+            <a href="#" class="logo">Dubez<span>.</span></a>
+            
+            <nav class="desktop-menu">
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#work" class="nav-link">Results</a>
+                <a href="#process" class="nav-link">Process</a>
+                <a href="#about" class="nav-link">About</a>
+                <!-- Link to Calendly -->
+                <a href="https://calendly.com/ugochukwundubuisi87/30min" target="_blank" class="btn btn-primary">Book a Call</a>
+            </nav>
+
+            <button class="mobile-toggle" aria-label="Toggle Menu">
+                <ion-icon name="menu-outline"></ion-icon>
+            </button>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobile-menu">
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#work" class="nav-link">Results</a>
+        <a href="#process" class="nav-link">Process</a>
+        <a href="#about" class="nav-link">About</a>
+        <!-- Link to Calendly -->
+        <a href="https://calendly.com/ugochukwundubuisi87/30min" target="_blank" class="btn btn-primary" style="margin-top: 10px;">Book a Call</a>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container hero-content animate-on-scroll">
+            <div class="badge">
+                <span class="status-dot"></span>
+                Accepting 3 new clients for <span id="current-month">This Month</span>
+            </div>
+            <h1>More Calls. More Bookings.<br>Less "I'll think about it."</h1>
+            <p class="hero-sub">
+                I build high-performance websites for contractors, clinics, and service providers. Stop losing local customers to outdated design.
+            </p>
+            <div class="cta-group">
+                <!-- Link to Calendly -->
+                <a href="https://calendly.com/ugochukwundubuisi87/30min" target="_blank" class="btn btn-primary">Book Free Strategy Call</a>
+                <a href="#work" class="btn btn-secondary">See Local Results</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Credibility Strip -->
+    <section class="credibility animate-on-scroll">
+        <div class="container">
+            <p class="text-center text-muted mb-4" style="font-size: 0.8rem; letter-spacing: 1px; margin-bottom: 2rem;">HELPING LOCAL BRANDS GROW</p>
+            <div class="logo-grid">
+                <div class="client-logo"><ion-icon name="hammer"></ion-icon> BuildRight</div>
+                <div class="client-logo"><ion-icon name="leaf"></ion-icon> GreenScape</div>
+                <div class="client-logo"><ion-icon name="medkit"></ion-icon> CityDental</div>
+                <div class="client-logo"><ion-icon name="business"></ion-icon> EliteLaw</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About / Founder Section (New) -->
+    <section id="about" class="section-padding about-section">
+        <div class="container animate-on-scroll">
+            <div class="about-grid">
+                <div class="about-image">
+                    <!-- Placeholder for Founder Image -->
+                    <img src="./wan2.5-i2i-preview_b_Realistic_outdoor_en.png" alt="Founder working at desk">
+                </div>
+                <div class="about-content">
+                    <span class="text-gold" style="font-weight: 600; letter-spacing: 1px; font-size: 0.9rem;">MEET THE PARTNER</span>
+                    <h2 style="margin-top: 10px;">Not an agency.<br>A dedicated partner.</h2>
+                    <p style="color: var(--text-muted); margin-bottom: 1.5rem;">
+                        Big agencies pass you off to junior interns. Freelancers ghost you. 
+                    </p>
+                    <p style="color: var(--text-muted); margin-bottom: 1.5rem;">
+                        I'm the middle ground. You work directly with me—the person building your site. I understand that local businesses need the phone to ring, not just a pretty homepage.
+                    </p>
+                    <div class="stat-row">
+                        <div class="stat-item">
+                            <strong>40+</strong>
+                            <span>Local Clients</span>
+                        </div>
+                        <div class="stat-item">
+                            <strong>3x</strong>
+                            <span>Avg. Lead Increase</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section-padding">
+        <div class="container">
+            <div class="text-center animate-on-scroll">
+                <h2>Everything you need to rank & sell</h2>
+                <p style="color: var(--text-muted);">Simple packages designed for local dominance.</p>
+            </div>
+
+            <div class="services-grid">
+                <!-- Service 1 -->
+                <div class="service-card animate-on-scroll">
+                    <div class="icon-box">
+                        <ion-icon name="phone-portrait-outline" size="large"></ion-icon>
+                    </div>
+                    <h3>High-Converting Websites</h3>
+                    <p style="color: var(--text-muted); margin-bottom: 1.5rem;">Custom sites designed to get visitors to call you. Mobile-optimized so you look great on every phone.</p>
+                    <ul class="service-list">
+                        <li><ion-icon name="checkmark-outline" class="check-icon"></ion-icon> "Click-to-Call" Strategy</li>
+                        <li><ion-icon name="checkmark-outline" class="check-icon"></ion-icon> Fast Loading Speed</li>
+                        <li><ion-icon name="checkmark-outline" class="check-icon"></ion-icon> Professional Trust Builders</li>
+                    </ul>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="service-card animate-on-scroll">
+                    <div class="icon-box">
+                        <ion-icon name="map-outline" size="large"></ion-icon>
+                    </div>
+                    <h3>Local SEO & Maps</h3>
+                    <p style="color: var(--text-muted); margin-bottom: 1.5rem;">Get found when people search "near me." I optimize your site and Google Profile to climb the rankings.</p>
+                    <ul class="service-list">
+                        <li><ion-icon name="checkmark-outline" class="check-icon"></ion-icon> Google Business Profile Setup</li>
+                        <li><ion-icon name="checkmark-outline" class="check-icon"></ion-icon> Keyword Optimization</li>
+                        <li><ion-icon name="checkmark-outline" class="check-icon"></ion-icon> Service Area Pages</li>
+                    </ul>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="service-card animate-on-scroll">
+                    <div class="icon-box">
+                        <ion-icon name="shield-checkmark-outline" size="large"></ion-icon>
+                    </div>
+                    <h3>Peace of Mind Maintenance</h3>
+                    <p style="color: var(--text-muted); margin-bottom: 1.5rem;">You run your business, I run the website. Includes hosting, security, and unlimited text updates.</p>
+                    <ul class="service-list">
+                        <li><ion-icon name="checkmark-outline" class="check-icon"></ion-icon> Daily Backups</li>
+                        <li><ion-icon name="checkmark-outline" class="check-icon"></ion-icon> Content Edits Included</li>
+                        <li><ion-icon name="checkmark-outline" class="check-icon"></ion-icon> 24/7 Security Scan</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Case Studies Section -->
+    <section id="work" class="section-padding work-section">
+        <div class="container">
+            <div class="text-center animate-on-scroll" style="margin-bottom: 4rem;">
+                <h2>Local Wins</h2>
+                <p style="color: var(--text-muted);">Real businesses getting real calls.</p>
+            </div>
+
+            <!-- Case Study 1: HVAC (Service Business) -->
+            <div class="case-study animate-on-scroll">
+                <div class="case-content">
+                    <span class="case-tag">HVAC / Contractor</span>
+                    <h3>Metro Air & Heat</h3>
+                    <p style="color: var(--text-muted); margin-bottom: 1.5rem;">A trusted local HVAC company with an outdated, broken website.</p>
+                    
+                    <div style="margin-bottom: 1.5rem; display: flex; gap: 20px;">
+                        <div>
+                            <h4 style="font-size: 0.8rem; margin-bottom: 0.5rem; color: #ef4444;">THE PROBLEM (Before)</h4>
+                            <p style="font-size: 0.9rem; color: var(--text-muted);">Site took 6 seconds to load. No phone number on the homepage.</p>
+                        </div>
+                        <div>
+                            <h4 style="font-size: 0.8rem; margin-bottom: 0.5rem; color: #10b981;">THE FIX (After)</h4>
+                            <p style="font-size: 0.9rem; color: var(--text-muted);">Instant load speed + Sticky "Call Now" button on mobile.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="stat-box">
+                        <ul style="font-size: 0.95rem; color: var(--text-main);">
+                            <li>• 300% increase in phone calls</li>
+                            <li>• #1 Ranking for "AC Repair"</li>
+                            <li>• 40+ new maintenance contracts</li>
+                        </ul>
+                    </div>
+
+                    <p class="quote">"We used to get 2 calls a week from the web. Now we get 2 a day. The investment paid for itself in a month."</p>
+
+                    <a href="#" class="btn btn-secondary" style="padding: 10px 24px; font-size: 0.9rem;">View Project</a>
+                </div>
+                <div class="case-image">
+                    <!-- Image: Contractor website on mobile/desktop -->
+                    <img src="./Screenshot 2026-01-08 162029.png" alt="HVAC Technician working on AC unit">
+                </div>
+            </div>
+
+              <!-- Case Study 2: Dental Clinic -->
+            <div class="case-study reverse animate-on-scroll">
+                <div class="case-content">
+                    <span class="case-tag">Dental Clinic / Healthcare</span>
+                    <h3>Egbe Smile Dental Clinic</h3>
+                    <p style="color: var(--text-muted); margin-bottom: 1.5rem;">A local family clinic that was invisible on Google Maps.</p>
+                    
+                    <div style="margin-bottom: 1.5rem;">
+                         <div style="display: flex; gap: 20px;">
+                            <div>
+                                <h4 style="font-size: 0.8rem; margin-bottom: 0.5rem; color: #ef4444;">THE PROBLEM (Before)</h4>
+                                <p style="font-size: 0.9rem; color: var(--text-muted);">Site was hard to read on phones. No way to book online.</p>
+                            </div>
+                            <div>
+                                <h4 style="font-size: 0.8rem; margin-bottom: 0.5rem; color: #10b981;">THE FIX (After)</h4>
+                                <p style="font-size: 0.9rem; color: var(--text-muted);">Mobile-first redesign with one-tap "Emergency Booking" button.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="stat-box">
+                        <ul style="font-size: 0.95rem; color: var(--text-main);">
+                            <li>• 50+ New Patients per month</li>
+                            <li>• Ranked #1 for "Emergency Dentist"</li>
+                            <li>• Reduced front-desk calls by 40%</li>
+                        </ul>
+                    </div>
+
+                    <p class="quote">"We're seeing patients from neighborhoods we never reached before. The online booking is a lifesaver."</p>
+
+                    <a href="#" class="btn btn-secondary" style="padding: 10px 24px; font-size: 0.9rem;">View Project</a>
+                </div>
+                <div class="case-image">
+                    <!-- Image: Modern Dental Office -->
+                    <img src="./clinic.png" alt="Modern Dental Clinic Reception">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section id="process" class="section-padding process-section">
+        <div class="container">
+            <div class="text-center animate-on-scroll">
+                <h2>Simple Process. Fast Launch.</h2>
+                <p style="opacity: 0.7;">I know you're busy running a business. I handle the tech.</p>
+            </div>
+
+            <div class="process-steps">
+                <!-- Step 1 -->
+                <div class="step text-center animate-on-scroll">
+                    <div class="step-num">01</div>
+                    <h3>Chat</h3>
+                    <p style="font-size: 0.9rem; opacity: 0.7;">A 15-min call to see if we're a fit. No sales pressure, just checking your goals.</p>
+                </div>
+                <!-- Step 2 -->
+                <div class="step text-center animate-on-scroll">
+                    <div class="step-num">02</div>
+                    <h3>Build</h3>
+                    <p style="font-size: 0.9rem; opacity: 0.7;">I design and build your site. You get a private link to review and give feedback.</p>
+                </div>
+                <!-- Step 3 -->
+                <div class="step text-center animate-on-scroll">
+                    <div class="step-num">03</div>
+                    <h3>Live</h3>
+                    <p style="font-size: 0.9rem; opacity: 0.7;">We launch. I set up your Google Maps listing and make sure you're live.</p>
+                </div>
+                <!-- Step 4 -->
+                <div class="step text-center animate-on-scroll">
+                    <div class="step-num">04</div>
+                    <h3>Growth</h3>
+                    <p style="font-size: 0.9rem; opacity: 0.7;">I handle monthly updates so you never have to worry about the website breaking.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section id="reviews" class="section-padding">
+        <div class="container">
+            <h2 class="text-center animate-on-scroll" style="margin-bottom: 3rem;">What Locals Say</h2>
+            
+            <div class="reviews-grid">
+                <!-- Review 1 -->
+                <div class="review-card animate-on-scroll">
+                    <div class="stars">★★★★★</div>
+                    <p style="margin-bottom: 1.5rem; font-style: italic;">"Best investment we made this year. We were invisible on Google before. Now the phone actually rings."</p>
+                    <div>
+                        <strong style="display: block;">Mark T.</strong>
+                        <span style="font-size: 0.85rem; color: var(--text-muted);">Owner, Metro Air</span>
+                    </div>
+                </div>
+               <!-- Review 2 -->
+                <div class="review-card animate-on-scroll">
+                    <div class="stars">★★★★★</div>
+                    <p style="margin-bottom: 1.5rem; font-style: italic;">"Our bookings doubled in the first month. The Google Maps setup was a game changer for our local visibility."</p>
+                    <div>
+                        <strong style="display: block;">James P.</strong>
+                        <span style="font-size: 0.85rem; color: var(--text-muted);">Owner, GreenScape</span>
+                    </div>
+                </div>
+                <!-- Review 3 -->
+                <div class="review-card animate-on-scroll">
+                    <div class="stars">★★★★★</div>
+                    <p style="margin-bottom: 1.5rem; font-style: italic;">"Professional, fast, and the monthly maintenance means I don't have to stress about updates."</p>
+                    <div>
+                        <strong style="display: block;">Dr. Alan Grant</strong>
+                        <span style="font-size: 0.85rem; color: var(--text-muted);">Grant Family Dental</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="section-padding" style="background-color: var(--bg-alt);">
+        <div class="container">
+            <h2 class="text-center animate-on-scroll">Common Questions</h2>
+            
+            <div class="faq-container animate-on-scroll">
+                <div class="faq-item">
+                    <button class="faq-question">
+                        How long does it take?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Most local business websites are live in 2-3 weeks. We move fast so you can start getting leads sooner.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        How much does it cost?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>I work on a flat-fee project basis, avoiding hourly billing surprises. Each project is quoted based on its specific scope and goals, ensuring you pay for value delivered. I also offer monthly maintenance plans so you never have to worry about updates or security.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Can I update the site myself?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes, but you don't have to! My monthly support plan includes unlimited text/image updates. Just email me what you need changed, and it's done within 24 hours.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Do you help with writing?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Absolutely. I write all the headlines and sales copy to make sure your visitors turn into paying customers.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lead Magnet / Audit Section -->
+    <section class="section-padding audit-section">
+        <div class="container text-center animate-on-scroll">
+            <h2 style="margin-bottom: 0.5rem;">Unsure where to start?</h2>
+            <p style="color: var(--text-muted); max-width: 600px; margin: 0 auto 1.5rem;">
+                Get a Free Video Audit of your current online presence. I'll show you 3 things holding you back from getting more calls.
+            </p>
+            
+            <div class="audit-box">
+                <ion-icon name="videocam-outline" size="large" style="color: var(--accent); margin-bottom: 1rem;"></ion-icon>
+                <p style="margin-bottom: 1.5rem; font-weight: 500;">Enter your website URL below. I'll send a 5-min video breakdown.</p>
+                
+                <!-- Audit Form -->
+                <form action="https://formspree.io/f/xjgknlrd" method="POST" style="max-width: 400px; margin: 0 auto; display: flex; gap: 10px; flex-wrap: wrap;">
+                    <input type="text" name="audit_url" placeholder="www.yourbusiness.com" required style="flex: 1; padding: 12px; border: 1px solid var(--border-light); border-radius: 4px; min-width: 200px;">
+                    <button type="submit" class="btn btn-primary" style="padding: 12px 24px;">Get Audit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section with Form -->
+    <section id="contact" class="contact-section">
+        <div class="container animate-on-scroll">
+            <div class="contact-grid">
+                <div class="contact-intro">
+                    <h2>Let's build your<br>growth engine.</h2>
+                    <p style="font-size: 1.1rem; margin-bottom: 2rem; opacity: 0.9;">
+                        Fill out the form to schedule a free strategy call. I'll get back to you within 24 hours.
+                    </p>
+                    <ul style="margin-bottom: 2rem;">
+                        <li style="margin-bottom: 15px; display: flex; align-items: center; gap: 10px;">
+                            <ion-icon name="checkmark-circle" style="color: var(--accent);"></ion-icon> No obligation consultation
+                        </li>
+                        <li style="margin-bottom: 15px; display: flex; align-items: center; gap: 10px;">
+                            <ion-icon name="checkmark-circle" style="color: var(--accent);"></ion-icon> Clear timeline & pricing
+                        </li>
+                        <li style="display: flex; align-items: center; gap: 10px;">
+                            <ion-icon name="checkmark-circle" style="color: var(--accent);"></ion-icon> 100% Satisfaction Guarantee
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="contact-form-card">
+                    <!-- Formspree Integration -->
+                    <form action="https://formspree.io/f/xjgknlrd" method="POST">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="john@company.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="service">Service Needed</label>
+                            <select id="service" name="service">
+                                <option value="New Website">New Website</option>
+                                <option value="Website Redesign">Website Redesign</option>
+                                <option value="Local SEO">Google Maps / Local SEO</option>
+                                <option value="Maintenance">Maintenance Plan</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Project Details</label>
+                            <textarea id="message" name="message" rows="4" placeholder="Tell me a bit about your business..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">Book Free Strategy Call</button>
+                    </form>
+                    
+                    <div style="margin-top: 15px; text-align: center;">
+                        <span style="font-size: 0.85rem; opacity: 0.8;">Or</span><br>
+                        <a href="https://calendly.com/ugochukwundubuisi87/30min" target="_blank" style="font-size: 0.9rem; text-decoration: underline; color: var(--accent);">Skip the form? Book a time directly.</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-flex">
+            <div class="footer-col">
+                <div class="logo" style="color: #fff; margin-bottom: 10px;">Dubez<span>.</span></div>
+                <p style="opacity: 0.7; font-size: 0.85rem;">Based in Awka. Serving clients worldwide.</p>
+            </div>
+            
+            <div class="footer-legal">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+            </div>
+
+            <div class="social-links">
+                <a href="https://www.instagram.com/dubezdigital?igsh=MTRvd3I1MzV4d3h2cA==" target="_blank" aria-label="Instagram"><ion-icon name="logo-instagram" style="font-size: 1.5rem;"></ion-icon></a>
+                <a href="https://wa.me/2348073925399" target="_blank" aria-label="WhatsApp"><ion-icon name="logo-whatsapp" style="font-size: 1.5rem;"></ion-icon></a>
+            </div>
+        </div>
+        <div class="container text-center" style="margin-top: 30px; opacity: 0.5; font-size: 0.8rem; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 20px;">
+            &copy; <span id="year">2024</span> Dubez Digital. All rights reserved.
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Badge -->
+    <a href="https://wa.me/2348073925399" target="_blank" class="whatsapp-float" aria-label="Chat on WhatsApp">
+        <ion-icon name="logo-whatsapp"></ion-icon>
+    </a>
+
+    <script>
+        // Mobile Menu Logic
+        const toggleBtn = document.querySelector('.mobile-toggle');
+        const mobileMenu = document.getElementById('mobile-menu');
+        const menuLinks = document.querySelectorAll('.mobile-menu .nav-link');
+        const menuIcon = toggleBtn.querySelector('ion-icon');
+
+        toggleBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('active');
+            const isActive = mobileMenu.classList.contains('active');
+            menuIcon.setAttribute('name', isActive ? 'close-outline' : 'menu-outline');
+        });
+
+        // Close menu when a link is clicked
+        menuLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.remove('active');
+                menuIcon.setAttribute('name', 'menu-outline');
+            });
+        });
+
+        // FAQ Accordion Logic
+        const faqQuestions = document.querySelectorAll('.faq-question');
+
+        faqQuestions.forEach(question => {
+            question.addEventListener('click', () => {
+                const item = question.parentElement;
+                
+                // Close others
+                document.querySelectorAll('.faq-item').forEach(otherItem => {
+                    if (otherItem !== item) {
+                        otherItem.classList.remove('active');
+                    }
+                });
+
+                item.classList.toggle('active');
+            });
+        });
+
+        // Scroll Animation Observer
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: "0px 0px -50px 0px"
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('is-visible');
+                    observer.unobserve(entry.target); // Only animate once
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.animate-on-scroll').forEach(el => {
+            observer.observe(el);
+        });
+
+        // Auto-Update Month & Year
+        const monthNames = ["January", "February", "March", "April", "May", "June",
+            "July", "August", "September", "October", "November", "December"
+        ];
+        const d = new Date();
+        document.getElementById("current-month").innerText = monthNames[d.getMonth()];
+        document.getElementById("year").innerText = d.getFullYear();
+    </script>
+</body>
+</html>
